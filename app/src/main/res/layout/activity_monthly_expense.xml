@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MonthlyExpense"
+    android:background="@color/white">
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="@drawable/round_boder"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Total"
+        android:gravity="center"
+        android:textColorHint="#0E4C92"
+        android:id="@+id/montotal"
+        android:textColor="@color/black"
+        ></EditText>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="@drawable/round_boder"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:hint="Left"
+        android:gravity="center"
+        android:textColorHint="#0E4C92"
+        android:id="@+id/monleft"
+        android:textColor="@color/black"
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/monleft"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_boder"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:gravity="start"
+        ></EditText>
+
+</RelativeLayout>
